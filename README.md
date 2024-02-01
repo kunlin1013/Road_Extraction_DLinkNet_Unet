@@ -28,7 +28,7 @@ Therefore, we use Data Augmentation techniques such as zoom, translation, rotati
 ### Directory structure
 ```
 |
-|-- img: Images in the README.md
+|-- img: Images for the README.md
 |
 |-- Train_DLinkNet.py: Train DLinkNet
 |-- Test_DLinkNet.py: Inference using DLinkNet on DeepGlobe Road Extraction 
