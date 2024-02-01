@@ -2,6 +2,7 @@
 
 ### Reference paper
 [D-LinkNet](https://ieeexplore.ieee.org/document/8575492)
+![D-LinkNet](https://github.com/kunlin1013/Road_Extraction_DLinkNet_Unet/blob/main/img/DLinkNet.png)
 
 ### Dataset 
 [DeepGlobe Road Extraction Dataset](https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset) provide 6226 satellite images and their ground truth. 
@@ -10,6 +11,7 @@ But we found that all of them are foreign roads, lacking diversity. Therefore, w
 ### Data Augmentation
 Because the road in the world are constantly changing, it's impossible to include all scenarios in the data. 
 Therefore, we use Data Augmentation techniques such as zoom, translation, rotation, color jittering, or horizontal and vertical flip to expand the dataset, making the data more diverse.
+![Data_Augmentation](https://github.com/kunlin1013/Road_Extraction_DLinkNet_Unet/blob/main/img/data_augmentation.png)
 
 ### Reference version of packages
 ```
